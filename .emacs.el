@@ -1,4 +1,5 @@
 ;; ----------------------------------------------------------------------------
+
 ;; Enable .emacs debugging
 ;; ----------------------------------------------------------------------------
 (setq debug-on-error t) 
@@ -33,6 +34,7 @@
 ;; ----------------------------------------------------------------------------
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'ir-black t)
+
 
 ;; ----------------------------------------------------------------------------
 ;; General coding preferences
@@ -77,7 +79,7 @@
 ;; ----------------------------------------------------------------------------
 ;; Deft settings
 ;; ----------------------------------------------------------------------------
-(setq deft-directory "~/Dropbox/org-notes")
+(setq deft-directory "~/Repo/OrgNotes")
 (setq deft-use-filename-as-title t)
 (setq deft-extension "org")
 (setq deft-text-mode 'org-mode)
