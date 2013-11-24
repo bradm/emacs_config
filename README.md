@@ -1,4 +1,4 @@
-emacs_config
+Emacs Configuration
 ============
 
-Emacs configuration
+Evolution of Emacs configuration. 
